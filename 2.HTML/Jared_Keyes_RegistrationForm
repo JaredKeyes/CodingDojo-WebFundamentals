@@ -1,0 +1,37 @@
+<!doctype html>
+<form>
+    <h1>My Registration Form</h1>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName">
+   
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName">
+   
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+
+    <label for="passwordConfirmation">Password Confirmation:</label>
+    <input type="password" id="passwordConfirmation" name="passwordConfirmation">
+    
+    <label for="birthdate">Birthday</label>
+    <input type="date" id="birthdate" name="birthdate">
+
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+   
+    <label for="female">Female</label>
+    <input type="radio" name="gender" value="female">
+   
+    
+    <p>A short description about yourself:</p>
+    <textarea name="description"></textarea>
+
+    <select name="Favorite Language">
+    <option value="javascript">Javascript</option>
+
+   
+   <input type="submit" value="Click here to register">
+</form>

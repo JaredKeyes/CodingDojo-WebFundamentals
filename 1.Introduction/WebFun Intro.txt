@@ -1,0 +1,7 @@
+Introduction walks through:
+
+	20 minute rule
+	Goals
+	Installation of text editor, MySQL, Git, and NodeJS
+	Request and Response cycle
+	What full stack Development means.

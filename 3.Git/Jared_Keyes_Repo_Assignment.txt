@@ -1,0 +1,58 @@
+git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/GitHubRepoAssignment (master)
+$ git add .
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/GitHubRepoAssignment (master)
+$ git commit -m "Repo Assignment"
+On branch master
+
+Initial commit
+
+nothing to commit
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/GitHubRepoAssignment (master)
+$ ^C
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/GitHubRepoAssignment (master)
+$ clear
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/GitHubRepoAssignment (master)
+$ copy > nul readme.md
+bash: copy: command not found
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/GitHubRepoAssignment (master)
+$ copy nul > readme.md
+bash: copy: command not found
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/GitHubRepoAssignment (master)
+$ git add .
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/GitHubRepoAssignment (master)
+$ git commit -m "Repo Assignment"
+[master (root-commit) 4b2785e] Repo Assignment
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 nul
+ create mode 100644 readme.md
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/GitHubRepoAssignment (master)
+$ git remote add origin https://github.com/JaredKeyes/GitHubRepoAssignment.git
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/GitHubRepoAssignment (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 226 bytes | 226.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/JaredKeyes/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/GitHubRepoAssignment (master)
+$

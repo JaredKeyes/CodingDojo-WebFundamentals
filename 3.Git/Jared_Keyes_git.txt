@@ -1,0 +1,156 @@
+
+alexj@LAPTOP-1699JK1C MINGW64 ~
+$ cd desktop
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop
+$ mkdir gittest
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop
+$ cd gittest
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest
+$ git init
+Initialized empty Git repository in C:/Users/alexj/Desktop/gittest/.git/
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ mkdir index.html
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ mkdir styles.css
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ mkdir aboutMe.txt
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git add .
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ get status
+bash: get: command not found
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git commit -m "Made folders"
+On branch master
+
+Initial commit
+
+nothing to commit
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ copy nul aboutMe.txt
+bash: copy: command not found
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ copy nul > aboutMe.txt
+bash: copy: command not found
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ copy nul index.html
+bash: copy: command not found
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ copy nul > index.html
+bash: copy: command not found
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ copy nul > copy nul > styles.css
+bash: copy: command not found
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git commit -m "updated aboutMe
+>
+>
+>
+> "
+On branch master
+
+Initial commit
+
+Untracked files:
+        aboutMe.txt
+        copy
+        index.html
+        styles.css
+
+nothing added to commit but untracked files present
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git add .
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git commit -m "updated aboutMe"
+[master (root-commit) b6f456d] updated aboutMe
+ 4 files changed, 1 insertion(+)
+ create mode 100644 aboutMe.txt
+ create mode 100644 copy
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git add .
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git commit -m "added favorite movie to aboutMe"
+[master 97aab1f] added favorite movie to aboutMe
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git dif
+git: 'dif' is not a git command. See 'git --help'.
+
+The most similar commands are
+        diff
+        config
+        difftool
+        init
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git diff
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git diff --stat
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git add .
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git diff --stat
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git log
+commit 97aab1f9fe9f8533753b02df9f66af226a72d7c8 (HEAD -> master)
+Author: Jared Keyes <Jared.Keyes3@gmail.com>
+Date:   Wed Oct 18 12:05:46 2017 -0400
+
+    added favorite movie to aboutMe
+
+commit b6f456d70290f32dd6377ff66c4376cc87f4e934
+Author: Jared Keyes <Jared.Keyes3@gmail.com>
+Date:   Wed Oct 18 12:04:24 2017 -0400
+
+    updated aboutMe
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ ^C
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$ git revert -n 97aab1f9fe9
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master|REVERTING)
+$ git add .
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master|REVERTING)
+$ git commit -m "Changed movie to book"
+[master c432a39] Changed movie to book
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+alexj@LAPTOP-1699JK1C MINGW64 ~/desktop/gittest (master)
+$

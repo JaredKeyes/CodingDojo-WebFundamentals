@@ -1,0 +1,48 @@
+#wrapper{
+    width: 900px;
+    height: 800px;
+    background-color: tan;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+h1{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.block1 {
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    vertical-align: top;
+    margin: 5px;
+    position: relative;
+
+}
+
+.block2{
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    vertical-align: top;
+    margin: 5px;
+    position: relative;
+
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate(0, -50%);
+
+}
+

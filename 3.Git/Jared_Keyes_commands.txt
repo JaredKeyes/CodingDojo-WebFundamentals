@@ -1,0 +1,57 @@
+C:\Users\alexj>cd desktop
+
+C:\Users\alexj\Desktop>mkdir test
+
+C:\Users\alexj\Desktop>cd test
+
+C:\Users\alexj\Desktop\test>copy nul index.html
+        1 file(s) copied.
+
+C:\Users\alexj\Desktop\test>copy nul styles.css
+        1 file(s) copied.
+
+C:\Users\alexj\Desktop\test>copy nul commands.txt
+        1 file(s) copied.
+
+C:\Users\alexj\Desktop\test>copy index.html index_2.html
+        1 file(s) copied.
+
+C:\Users\alexj\Desktop\test>del styles.css
+
+C:\Users\alexj\Desktop\test>cd desktop
+The system cannot find the path specified.
+
+C:\Users\alexj\Desktop\test>cd..
+
+C:\Users\alexj\Desktop>mkdir destination
+
+C:\Users\alexj\Desktop\test>move index_2.html ../destination
+        1 file(s) moved.
+
+C:\Users\alexj\Desktop\test>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 6AC8-CB0E
+
+ Directory of C:\Users\alexj\Desktop\test
+
+10/16/2017  05:01 PM    <DIR>          .
+10/16/2017  05:01 PM    <DIR>          ..
+10/16/2017  04:43 PM                 0 commands.txt
+10/16/2017  04:43 PM                 0 index.html
+               2 File(s)              0 bytes
+               2 Dir(s)  183,662,927,872 bytes free
+
+C:\Users\alexj\Desktop\destination>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 6AC8-CB0E
+
+ Directory of C:\Users\alexj\Desktop\destination
+
+10/16/2017  05:01 PM    <DIR>          .
+10/16/2017  05:01 PM    <DIR>          ..
+10/16/2017  04:43 PM                 0 index_2.html
+               1 File(s)              0 bytes
+               2 Dir(s)  183,662,862,336 bytes free
+
+C:\Users\alexj\Desktop>del destination
+C:\Users\alexj\Desktop\destination\*, Are you sure (Y/N)? y
